@@ -5,3 +5,4 @@ class DMVForm(forms.ModelForm):
     class Meta:
         model = DMVModel
         exclude = ["userTableForeignKey"]
+        # fields = ["IDNumber", "stateAbbr", "issueDate"]
